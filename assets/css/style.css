@@ -1,0 +1,94 @@
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+}
+.contact img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 3px;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    flex-basis: 25%;
+    justify-content: left;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    flex-basis: 200px;
+}
+.text h3{
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.text p{
+    margin-top: 5px;
+}
+.active{
+    display: flex;
+    justify-content: space-around;
+   align-items: center;
+    border: solid gray 1px;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 33%;
+    
+}
+.bloque{
+    display: flex;
+    flex-direction: column;
+    border: solid gray 1px;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+}
+.btn{
+    background-color: #A491D2;
+    color: #fff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: solid 1px #A491D2;
+}
+.user{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.inactive{
+    border: solid gray 1px;
+}
+
+.chat{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background-color: whitesmoke;
+}
+.chat img{
+    height: 300px;
+    width: 300px;
+}
+.text-principal{
+    text-align: center;
+}
